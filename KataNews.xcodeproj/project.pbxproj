@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		236265AD90DC7E8963C07D5B /* Pods_KataNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA14B25DB69692DFA58C268 /* Pods_KataNews.framework */; };
+		EF01FA761E69FA27008ACA39 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01FA741E69FA27008ACA39 /* CalendarViewController.swift */; };
+		EF01FA771E69FA28008ACA39 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF01FA751E69FA27008ACA39 /* CalendarViewController.xib */; };
+		EF06B1C11E69AB00007C9A4A /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF06B1C01E69AB00007C9A4A /* CalendarCell.xib */; };
+		EF06B1C31E69ABB6007C9A4A /* CalendarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06B1C21E69ABB6007C9A4A /* CalendarCellView.swift */; };
+		EF1E6F741E4D55A600391252 /* KataFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E6F731E4D55A600391252 /* KataFeed.swift */; };
+		EF1E6F761E57B45C00391252 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E6F751E57B45C00391252 /* Feed.swift */; };
+		EF21628A1E490F7B0086705F /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2162891E490F7B0086705F /* CustomHeaderView.swift */; };
+		EF2162A31E492EF50086705F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162991E492EF50086705F /* OpenSans-Bold.ttf */; };
+		EF2162A41E492EF50086705F /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629A1E492EF50086705F /* OpenSans-BoldItalic.ttf */; };
+		EF2162A51E492EF50086705F /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629B1E492EF50086705F /* OpenSans-ExtraBold.ttf */; };
+		EF2162A61E492EF50086705F /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629C1E492EF50086705F /* OpenSans-ExtraBoldItalic.ttf */; };
+		EF2162A71E492EF50086705F /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629D1E492EF50086705F /* OpenSans-Italic.ttf */; };
+		EF2162A81E492EF50086705F /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629E1E492EF50086705F /* OpenSans-Light.ttf */; };
+		EF2162A91E492EF50086705F /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF21629F1E492EF50086705F /* OpenSans-LightItalic.ttf */; };
+		EF2162AA1E492EF50086705F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162A01E492EF50086705F /* OpenSans-Regular.ttf */; };
+		EF2162AB1E492EF50086705F /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162A11E492EF50086705F /* OpenSans-Semibold.ttf */; };
+		EF2162AC1E492EF50086705F /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162A21E492EF50086705F /* OpenSans-SemiboldItalic.ttf */; };
+		EF2162BF1E4934F60086705F /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162B91E4934F60086705F /* PlayfairDisplay-Black.ttf */; };
+		EF2162C01E4934F60086705F /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162BA1E4934F60086705F /* PlayfairDisplay-BlackItalic.ttf */; };
+		EF2162C11E4934F60086705F /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162BB1E4934F60086705F /* PlayfairDisplay-Bold.ttf */; };
+		EF2162C21E4934F60086705F /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162BC1E4934F60086705F /* PlayfairDisplay-BoldItalic.ttf */; };
+		EF2162C31E4934F60086705F /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162BD1E4934F60086705F /* PlayfairDisplay-Italic.ttf */; };
+		EF2162C41E4934F60086705F /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF2162BE1E4934F60086705F /* PlayfairDisplay-Regular.ttf */; };
+		EF2162C61E4A8F190086705F /* KataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2162C51E4A8F190086705F /* KataViewController.swift */; };
+		EF2162CA1E4A90100086705F /* CustomKataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2162C91E4A90100086705F /* CustomKataCell.swift */; };
+		EF3610AE1E44D573006D1156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3610AD1E44D573006D1156 /* AppDelegate.swift */; };
+		EF3610B01E44D573006D1156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3610AF1E44D573006D1156 /* ViewController.swift */; };
+		EF3610B31E44D573006D1156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3610B11E44D573006D1156 /* Main.storyboard */; };
+		EF3610B51E44D573006D1156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3610B41E44D573006D1156 /* Assets.xcassets */; };
+		EF3610B81E44D573006D1156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3610B61E44D573006D1156 /* LaunchScreen.storyboard */; };
+		EF3610C01E44F05A006D1156 /* CustomBodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3610BF1E44F05A006D1156 /* CustomBodyCell.swift */; };
+		EF3610C61E44F31C006D1156 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3610C21E44F31C006D1156 /* News.swift */; };
+		EF3610C71E44F31C006D1156 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3610C31E44F31C006D1156 /* NewsItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FA14B25DB69692DFA58C268 /* Pods_KataNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AC2281341F1FE8851B74E5 /* Pods-KataNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataNews/Pods-KataNews.debug.xcconfig"; sourceTree = "<group>"; };
+		A445133FB842F43F2D4174C1 /* Pods-KataNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataNews/Pods-KataNews.release.xcconfig"; sourceTree = "<group>"; };
+		EF01FA741E69FA27008ACA39 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		EF01FA751E69FA27008ACA39 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		EF06B1C01E69AB00007C9A4A /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		EF06B1C21E69ABB6007C9A4A /* CalendarCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCellView.swift; sourceTree = "<group>"; };
+		EF1E6F731E4D55A600391252 /* KataFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KataFeed.swift; sourceTree = "<group>"; };
+		EF1E6F751E57B45C00391252 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		EF2162891E490F7B0086705F /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		EF2162991E492EF50086705F /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		EF21629A1E492EF50086705F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EF21629B1E492EF50086705F /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EF21629C1E492EF50086705F /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EF21629D1E492EF50086705F /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		EF21629E1E492EF50086705F /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		EF21629F1E492EF50086705F /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		EF2162A01E492EF50086705F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		EF2162A11E492EF50086705F /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		EF2162A21E492EF50086705F /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		EF2162B91E4934F60086705F /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
+		EF2162BA1E4934F60086705F /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EF2162BB1E4934F60086705F /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		EF2162BC1E4934F60086705F /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EF2162BD1E4934F60086705F /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		EF2162BE1E4934F60086705F /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		EF2162C51E4A8F190086705F /* KataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KataViewController.swift; sourceTree = "<group>"; };
+		EF2162C91E4A90100086705F /* CustomKataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKataCell.swift; sourceTree = "<group>"; };
+		EF3610AA1E44D573006D1156 /* KataNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3610AD1E44D573006D1156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3610AF1E44D573006D1156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3610B21E44D573006D1156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3610B41E44D573006D1156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3610B71E44D573006D1156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3610B91E44D573006D1156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3610BF1E44F05A006D1156 /* CustomBodyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBodyCell.swift; sourceTree = "<group>"; };
+		EF3610C21E44F31C006D1156 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		EF3610C31E44F31C006D1156 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3610A71E44D573006D1156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236265AD90DC7E8963C07D5B /* Pods_KataNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A26B7C5DB6C6ABAA9E2697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA14B25DB69692DFA58C268 /* Pods_KataNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4741C58F1177180EA8F1C7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73AC2281341F1FE8851B74E5 /* Pods-KataNews.debug.xcconfig */,
+				A445133FB842F43F2D4174C1 /* Pods-KataNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF2162981E492EF50086705F /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				EF2162991E492EF50086705F /* OpenSans-Bold.ttf */,
+				EF21629A1E492EF50086705F /* OpenSans-BoldItalic.ttf */,
+				EF21629B1E492EF50086705F /* OpenSans-ExtraBold.ttf */,
+				EF21629C1E492EF50086705F /* OpenSans-ExtraBoldItalic.ttf */,
+				EF21629D1E492EF50086705F /* OpenSans-Italic.ttf */,
+				EF21629E1E492EF50086705F /* OpenSans-Light.ttf */,
+				EF21629F1E492EF50086705F /* OpenSans-LightItalic.ttf */,
+				EF2162A01E492EF50086705F /* OpenSans-Regular.ttf */,
+				EF2162A11E492EF50086705F /* OpenSans-Semibold.ttf */,
+				EF2162A21E492EF50086705F /* OpenSans-SemiboldItalic.ttf */,
+				EF2162B91E4934F60086705F /* PlayfairDisplay-Black.ttf */,
+				EF2162BA1E4934F60086705F /* PlayfairDisplay-BlackItalic.ttf */,
+				EF2162BB1E4934F60086705F /* PlayfairDisplay-Bold.ttf */,
+				EF2162BC1E4934F60086705F /* PlayfairDisplay-BoldItalic.ttf */,
+				EF2162BD1E4934F60086705F /* PlayfairDisplay-Italic.ttf */,
+				EF2162BE1E4934F60086705F /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		EF3610A11E44D573006D1156 = {
+			isa = PBXGroup;
+			children = (
+				EF3610AC1E44D573006D1156 /* KataNews */,
+				EF3610AB1E44D573006D1156 /* Products */,
+				B4741C58F1177180EA8F1C7A /* Pods */,
+				65A26B7C5DB6C6ABAA9E2697 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3610AB1E44D573006D1156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3610AA1E44D573006D1156 /* KataNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3610AC1E44D573006D1156 /* KataNews */ = {
+			isa = PBXGroup;
+			children = (
+				EF3610AD1E44D573006D1156 /* AppDelegate.swift */,
+				EF3610AF1E44D573006D1156 /* ViewController.swift */,
+				EF01FA741E69FA27008ACA39 /* CalendarViewController.swift */,
+				EF01FA751E69FA27008ACA39 /* CalendarViewController.xib */,
+				EF06B1C01E69AB00007C9A4A /* CalendarCell.xib */,
+				EF06B1C21E69ABB6007C9A4A /* CalendarCellView.swift */,
+				EF3610B11E44D573006D1156 /* Main.storyboard */,
+				EF2162C51E4A8F190086705F /* KataViewController.swift */,
+				EF2162891E490F7B0086705F /* CustomHeaderView.swift */,
+				EF3610BF1E44F05A006D1156 /* CustomBodyCell.swift */,
+				EF2162C91E4A90100086705F /* CustomKataCell.swift */,
+				EF3610B41E44D573006D1156 /* Assets.xcassets */,
+				EF3610B61E44D573006D1156 /* LaunchScreen.storyboard */,
+				EF3610C11E44F31C006D1156 /* Model */,
+				EF3610B91E44D573006D1156 /* Info.plist */,
+				EF2162981E492EF50086705F /* Res */,
+			);
+			path = KataNews;
+			sourceTree = "<group>";
+		};
+		EF3610C11E44F31C006D1156 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF3610C21E44F31C006D1156 /* News.swift */,
+				EF3610C31E44F31C006D1156 /* NewsItem.swift */,
+				EF1E6F731E4D55A600391252 /* KataFeed.swift */,
+				EF1E6F751E57B45C00391252 /* Feed.swift */,
+			);
+			name = Model;
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3610A91E44D573006D1156 /* KataNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3610BC1E44D573006D1156 /* Build configuration list for PBXNativeTarget "KataNews" */;
+			buildPhases = (
+				E82439FAF6CD345A627E315F /* [CP] Check Pods Manifest.lock */,
+				EF3610A61E44D573006D1156 /* Sources */,
+				EF3610A71E44D573006D1156 /* Frameworks */,
+				EF3610A81E44D573006D1156 /* Resources */,
+				8E4E5B34ACDBD584C3BB4697 /* [CP] Embed Pods Frameworks */,
+				9226A4E4289D9DD981C48362 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataNews;
+			productName = KataNews;
+			productReference = EF3610AA1E44D573006D1156 /* KataNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3610A21E44D573006D1156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pathum Mudannayake";
+				TargetAttributes = {
+					EF3610A91E44D573006D1156 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2ADJP5SEE3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF3610A51E44D573006D1156 /* Build configuration list for PBXProject "KataNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3610A11E44D573006D1156;
+			productRefGroup = EF3610AB1E44D573006D1156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3610A91E44D573006D1156 /* KataNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3610A81E44D573006D1156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2162C11E4934F60086705F /* PlayfairDisplay-Bold.ttf in Resources */,
+				EF2162AB1E492EF50086705F /* OpenSans-Semibold.ttf in Resources */,
+				EF2162C21E4934F60086705F /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				EF2162C01E4934F60086705F /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				EF2162BF1E4934F60086705F /* PlayfairDisplay-Black.ttf in Resources */,
+				EF2162AC1E492EF50086705F /* OpenSans-SemiboldItalic.ttf in Resources */,
+				EF3610B81E44D573006D1156 /* LaunchScreen.storyboard in Resources */,
+				EF2162C41E4934F60086705F /* PlayfairDisplay-Regular.ttf in Resources */,
+				EF2162AA1E492EF50086705F /* OpenSans-Regular.ttf in Resources */,
+				EF2162A71E492EF50086705F /* OpenSans-Italic.ttf in Resources */,
+				EF2162C31E4934F60086705F /* PlayfairDisplay-Italic.ttf in Resources */,
+				EF06B1C11E69AB00007C9A4A /* CalendarCell.xib in Resources */,
+				EF2162A61E492EF50086705F /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				EF3610B51E44D573006D1156 /* Assets.xcassets in Resources */,
+				EF2162A91E492EF50086705F /* OpenSans-LightItalic.ttf in Resources */,
+				EF2162A31E492EF50086705F /* OpenSans-Bold.ttf in Resources */,
+				EF3610B31E44D573006D1156 /* Main.storyboard in Resources */,
+				EF2162A81E492EF50086705F /* OpenSans-Light.ttf in Resources */,
+				EF2162A41E492EF50086705F /* OpenSans-BoldItalic.ttf in Resources */,
+				EF2162A51E492EF50086705F /* OpenSans-ExtraBold.ttf in Resources */,
+				EF01FA771E69FA28008ACA39 /* CalendarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E4E5B34ACDBD584C3BB4697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataNews/Pods-KataNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9226A4E4289D9DD981C48362 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataNews/Pods-KataNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82439FAF6CD345A627E315F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3610A61E44D573006D1156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF01FA761E69FA27008ACA39 /* CalendarViewController.swift in Sources */,
+				EF3610B01E44D573006D1156 /* ViewController.swift in Sources */,
+				EF1E6F761E57B45C00391252 /* Feed.swift in Sources */,
+				EF1E6F741E4D55A600391252 /* KataFeed.swift in Sources */,
+				EF3610C71E44F31C006D1156 /* NewsItem.swift in Sources */,
+				EF3610C01E44F05A006D1156 /* CustomBodyCell.swift in Sources */,
+				EF06B1C31E69ABB6007C9A4A /* CalendarCellView.swift in Sources */,
+				EF2162CA1E4A90100086705F /* CustomKataCell.swift in Sources */,
+				EF2162C61E4A8F190086705F /* KataViewController.swift in Sources */,
+				EF3610C61E44F31C006D1156 /* News.swift in Sources */,
+				EF21628A1E490F7B0086705F /* CustomHeaderView.swift in Sources */,
+				EF3610AE1E44D573006D1156 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF3610B11E44D573006D1156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3610B21E44D573006D1156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3610B61E44D573006D1156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3610B71E44D573006D1156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3610BA1E44D573006D1156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3610BB1E44D573006D1156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3610BD1E44D573006D1156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AC2281341F1FE8851B74E5 /* Pods-KataNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ADJP5SEE3;
+				INFOPLIST_FILE = KataNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instancea.Kata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF3610BE1E44D573006D1156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A445133FB842F43F2D4174C1 /* Pods-KataNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ADJP5SEE3;
+				INFOPLIST_FILE = KataNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.instancea.Kata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3610A51E44D573006D1156 /* Build configuration list for PBXProject "KataNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3610BA1E44D573006D1156 /* Debug */,
+				EF3610BB1E44D573006D1156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3610BC1E44D573006D1156 /* Build configuration list for PBXNativeTarget "KataNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3610BD1E44D573006D1156 /* Debug */,
+				EF3610BE1E44D573006D1156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3610A21E44D573006D1156 /* Project object */;
+}

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kJM-5e-Fdw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-ExtraBold.ttf">
+            <string>OpenSans-Extrabold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="PlayfairDisplay-Regular.ttf">
+            <string>PlayfairDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AVv-sJ-d7H">
+            <objects>
+                <viewController id="55w-kp-5U9" customClass="ViewController" customModule="KataNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="1" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="w3p-rP-0kc">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kataCell" rowHeight="200" id="sfm-gL-9Gb" customClass="CustomBodyCell" customModule="KataNews" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="200"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sfm-gL-9Gb" id="md5-aX-3xd">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bg-3A-vOi">
+                                            <rect key="frame" x="30" y="0.0" width="42" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="Lj9-9Z-RQd"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="ftg-K5-YTu"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="OpenSans-Extrabold" family="Open Sans" pointSize="11"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Neil Gorsuch for Supreme Court  Justice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsn-LB-bCg">
+                                            <rect key="frame" x="30" y="38.5" width="315" height="36"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="hv4-b2-aNx"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="24"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ih-oS-OCZ">
+                                            <rect key="frame" x="30" y="0.0" width="315" height="4"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="4" id="CAh-zs-EZ8"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3q-uv-CFS">
+                                            <rect key="frame" x="30" y="130" width="315" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Lac-Lp-b5g"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                            <color key="textColor" red="0.25683163639177309" green="0.25683163639177309" blue="0.25683163639177309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="0ih-oS-OCZ" firstAttribute="top" secondItem="md5-aX-3xd" secondAttribute="top" id="4xN-jT-Rrh"/>
+                                        <constraint firstItem="Jsn-LB-bCg" firstAttribute="top" secondItem="8Bg-3A-vOi" secondAttribute="bottom" constant="6" id="Bhe-1L-0kL"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="0ih-oS-OCZ" secondAttribute="trailing" constant="30" id="ITm-LK-aEJ"/>
+                                        <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="8Bg-3A-vOi" secondAttribute="trailing" constant="308" id="Jib-RE-Vdf"/>
+                                        <constraint firstItem="s3q-uv-CFS" firstAttribute="leading" secondItem="md5-aX-3xd" secondAttribute="leadingMargin" constant="30" id="VaO-jd-GHf"/>
+                                        <constraint firstItem="8Bg-3A-vOi" firstAttribute="top" secondItem="0ih-oS-OCZ" secondAttribute="bottom" constant="12" id="ZHZ-30-Epu"/>
+                                        <constraint firstItem="0ih-oS-OCZ" firstAttribute="leading" secondItem="md5-aX-3xd" secondAttribute="leadingMargin" constant="30" id="kdy-UE-Kf1"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Jsn-LB-bCg" secondAttribute="trailing" constant="30" id="nlb-oy-IgK"/>
+                                        <constraint firstItem="s3q-uv-CFS" firstAttribute="top" secondItem="Jsn-LB-bCg" secondAttribute="bottom" constant="12" id="qnc-LW-tcU"/>
+                                        <constraint firstItem="8Bg-3A-vOi" firstAttribute="leading" secondItem="md5-aX-3xd" secondAttribute="leadingMargin" constant="30" id="sK9-r5-hS8"/>
+                                        <constraint firstItem="Jsn-LB-bCg" firstAttribute="leading" secondItem="md5-aX-3xd" secondAttribute="leadingMargin" constant="30" id="x2Y-Cf-q35"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="s3q-uv-CFS" secondAttribute="bottom" constant="36" id="y7S-vw-dpC"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="s3q-uv-CFS" secondAttribute="trailing" constant="30" id="yHd-H2-FaN"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="customCellSeparator" destination="0ih-oS-OCZ" id="gJa-T0-IGs"/>
+                                    <outlet property="customNewsCategoryLabel" destination="8Bg-3A-vOi" id="mEq-Yz-Hm3"/>
+                                    <outlet property="customNewsContentLabel" destination="s3q-uv-CFS" id="Kly-Du-DcF"/>
+                                    <outlet property="customNewsHeadingLabel" destination="Jsn-LB-bCg" id="K9K-MX-bGo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="55w-kp-5U9" id="Qaq-ie-gYY"/>
+                            <outlet property="delegate" destination="55w-kp-5U9" id="cGh-Ds-IkD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dRD-60-6Un">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="GLu-UU-BDx">
+                            <rect key="frame" x="8" y="6" width="254" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="31 December 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIF-Tv-O4Q">
+                                    <rect key="frame" x="4" y="6" width="181" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <barButtonItem key="rightBarButtonItem" image="Calendar" style="plain" id="NL6-H8-Fac">
+                            <inset key="imageInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <connections>
+                                <action selector="calendarPopUp:" destination="55w-kp-5U9" id="t6E-po-PNP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="dateLabel" destination="qIF-Tv-O4Q" id="mmK-FR-KbR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Hq-uo-pRb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="-630.13493253373315"/>
+        </scene>
+        <!--Kata View Controller-->
+        <scene sceneID="duY-th-r0m">
+            <objects>
+                <viewController id="aUq-K5-2Vb" customClass="KataViewController" customModule="KataNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t3g-hu-f8W"/>
+                        <viewControllerLayoutGuide type="bottom" id="9pk-Nk-Th6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Vz-ly-vcn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNI-15-n9d">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="03 FEBRUARY 2017" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jib-uh-TmS">
+                                        <rect key="frame" x="24" y="39" width="135" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="hCP-ms-xQx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="PM8-U4-TzH"/>
+                                    <constraint firstItem="Jib-uh-TmS" firstAttribute="leading" secondItem="vNI-15-n9d" secondAttribute="leading" constant="24" id="QEd-Eg-2bN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jib-uh-TmS" secondAttribute="bottom" constant="12" id="a0e-6R-xiH"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="195" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ql4-1E-hq6">
+                                <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customKataCell" rowHeight="195" id="0YP-We-AcL" customClass="CustomKataCell" customModule="KataNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="195"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YP-We-AcL" id="MXE-5x-cd1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="194"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Eq-VL-w7Z">
+                                                    <rect key="frame" x="24" y="0.0" width="42" height="24"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="iD1-Aj-WG8"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="ieh-yE-D8A"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Neil Gorsuch for Supreme Court  Justice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpS-7X-vp3">
+                                                    <rect key="frame" x="24" y="38.5" width="315" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="OZZ-MJ-ujk"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMt-yf-45F">
+                                                    <rect key="frame" x="24" y="130" width="315" height="48"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="GL3-Jt-ySK"/>
+                                                    </constraints>
+                                                    <string key="text">Neil Gorsuch is President Trump’s pick to replace late Supreme Court Justice Antonin Scalia. Gorsuch is 49 years old, relatively young</string>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                                    <color key="textColor" red="0.14204913099812722" green="0.14204913099812722" blue="0.14204913099812722" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1JL-Tj-bb8">
+                                                    <rect key="frame" x="24" y="0.0" width="315" height="3"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="3" id="3Ed-Lj-En6"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="1JL-Tj-bb8" secondAttribute="trailing" constant="24" id="7bH-oJ-Qs1"/>
+                                                <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="3Eq-VL-w7Z" secondAttribute="trailing" constant="304" id="99J-qs-vir"/>
+                                                <constraint firstItem="3Eq-VL-w7Z" firstAttribute="top" secondItem="1JL-Tj-bb8" secondAttribute="bottom" constant="12" id="ADp-qd-kns"/>
+                                                <constraint firstItem="xMt-yf-45F" firstAttribute="leading" secondItem="MXE-5x-cd1" secondAttribute="leadingMargin" constant="24" id="GEj-hv-lwv"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xpS-7X-vp3" secondAttribute="trailing" constant="24" id="Iut-V0-yYV"/>
+                                                <constraint firstItem="1JL-Tj-bb8" firstAttribute="leading" secondItem="MXE-5x-cd1" secondAttribute="leadingMargin" constant="24" id="RKN-es-3NI"/>
+                                                <constraint firstItem="xpS-7X-vp3" firstAttribute="top" secondItem="3Eq-VL-w7Z" secondAttribute="bottom" constant="6" id="Vu1-Ug-fuN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="xMt-yf-45F" secondAttribute="bottom" constant="36" id="cPN-m4-hMX"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xMt-yf-45F" secondAttribute="trailing" constant="24" id="dWt-nA-F4i"/>
+                                                <constraint firstAttribute="topMargin" secondItem="1JL-Tj-bb8" secondAttribute="top" id="eTR-qE-zrS"/>
+                                                <constraint firstItem="3Eq-VL-w7Z" firstAttribute="leading" secondItem="MXE-5x-cd1" secondAttribute="leadingMargin" constant="24" id="hEo-8T-TDt"/>
+                                                <constraint firstItem="xpS-7X-vp3" firstAttribute="leading" secondItem="MXE-5x-cd1" secondAttribute="leadingMargin" constant="24" id="igf-C3-TbP"/>
+                                                <constraint firstItem="xMt-yf-45F" firstAttribute="top" secondItem="xpS-7X-vp3" secondAttribute="bottom" constant="12" id="rxB-t0-FPY"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="customKataCategoryLabel" destination="3Eq-VL-w7Z" id="y6W-9y-Mr6"/>
+                                            <outlet property="customKataCellSeparator" destination="1JL-Tj-bb8" id="1SQ-TH-x4L"/>
+                                            <outlet property="customKataContentLabel" destination="xMt-yf-45F" id="Z4H-Sn-c6c"/>
+                                            <outlet property="customKataHeadingLabel" destination="xpS-7X-vp3" id="j7R-mw-6L1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="aUq-K5-2Vb" id="uZp-zB-VL4"/>
+                                    <outlet property="delegate" destination="aUq-K5-2Vb" id="xo4-ax-xeJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ql4-1E-hq6" secondAttribute="trailing" id="HOx-Pd-p66"/>
+                            <constraint firstItem="Ql4-1E-hq6" firstAttribute="leading" secondItem="4Vz-ly-vcn" secondAttribute="leading" id="K98-uJ-a1F"/>
+                            <constraint firstItem="Ql4-1E-hq6" firstAttribute="top" secondItem="vNI-15-n9d" secondAttribute="bottom" id="Uf8-Uc-9wm"/>
+                            <constraint firstItem="vNI-15-n9d" firstAttribute="top" secondItem="4Vz-ly-vcn" secondAttribute="top" id="XjE-IR-8bp"/>
+                            <constraint firstItem="9pk-Nk-Th6" firstAttribute="top" secondItem="Ql4-1E-hq6" secondAttribute="bottom" id="cR2-tk-j7w"/>
+                            <constraint firstAttribute="trailing" secondItem="vNI-15-n9d" secondAttribute="trailing" id="jj2-mZ-5r6"/>
+                            <constraint firstItem="vNI-15-n9d" firstAttribute="leading" secondItem="4Vz-ly-vcn" secondAttribute="leading" id="v0y-oN-iDJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Xz-Zd-Qbd"/>
+                    <connections>
+                        <outlet property="kataDateLabel" destination="Jib-uh-TmS" id="UFV-yT-JpX"/>
+                        <outlet property="kataTable" destination="Ql4-1E-hq6" id="v9L-Rq-Eaq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7y-00-XNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="223.53823088455775"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4fd-eC-hIX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="kJM-5e-Fdw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" translucent="NO" id="iGQ-th-Qlq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="55w-kp-5U9" kind="relationship" relationship="rootViewController" id="YY4-id-xvv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wuP-Hw-KJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="-630.13493253373315"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Calendar" width="88" height="88"/>
+    </resources>
+</document>
