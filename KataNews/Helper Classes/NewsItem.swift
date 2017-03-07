@@ -1,3 +1,11 @@
+//
+//  NewsItem.swift
+//  Kata
+//
+//  Created by Pathum Mudannayake on 1/27/17.
+//  Copyright © 2017 Pathum Mudannayake. All rights reserved.
+//
+//  Holds content and resources of a single news item
 
 import Foundation
 import UIKit

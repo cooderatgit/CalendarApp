@@ -1,3 +1,10 @@
+//
+//  Feed.swift
+//  KataNews
+//
+//  Created by Pathum Mudannayake on 2/17/17.
+//  Copyright © 2017 Pathum Mudannayake. All rights reserved.
+//
 
 import Foundation
 

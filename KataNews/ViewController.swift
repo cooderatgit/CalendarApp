@@ -23,11 +23,23 @@ class ViewController: UITableViewController {
 //        let myVC = CalendarViewController(nibName: "CalendarViewController", bundle: nil)
         
         
-        if let overlayView = (Bundle.main.loadNibNamed("CalendarViewController", owner: self, options: nil)?.first as? CalendarViewController) {
+        if let overlayView = (Bundle.main.loadNibNamed("Calendar", owner: self.navigationController, options: nil)?.first as? CalendarViewController) {
 //            overlayView.myLabel.text = "Calendar"
 //            self.navigationController?.view.addSubview(overlayView)
-            self.navigationController?.view.addSubview(overlayView.calendarView)
+//            overlayView.view.backgroundColor = UIColor.brown
+            self.navigationController?.view.addSubview(overlayView.view)
         }
+        
+
+//        if let overlayView = (Bundle.main.loadNibNamed("Test", owner: self.navigationController, options: nil)?.first as? TestViewController) {
+//            //            overlayView.myLabel.text = "Calendar"
+//            //            self.navigationController?.view.addSubview(overlayView)
+////            self.navigationController?.view.addSubview(overlayView)
+////            overlayView.testLabel.text = "My Label"
+//            self.navigationController?.view.addSubview(overlayView.myView)
+////            self.navigationController?.viewControllers.append(overlayView)
+//            
+//        }
         
 
 //        self.navigationController!.pushViewController(OverlayView(nibName: "CalendarViewController", bundle: nil), animated: true )

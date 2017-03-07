@@ -4,7 +4,7 @@ import JTAppleCalendar
 
 class CalendarCellView: JTAppleDayCellView {
 
-    @IBOutlet weak var dayLabel: UILabel!
+    @IBOutlet var dayLabel: UILabel!
 
 
 }

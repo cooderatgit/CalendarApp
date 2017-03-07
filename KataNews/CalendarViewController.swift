@@ -3,26 +3,31 @@ import UIKit
 import JTAppleCalendar
 
 class CalendarViewController: UIViewController {
-
+    
     @IBOutlet weak var calendarView: JTAppleCalendarView!
     
-    
     override func viewDidLoad() {
-
         super.viewDidLoad()
+        print("calendar view controller loaded")
         
         calendarView.dataSource = self
         calendarView.delegate = self
+        print("just after delegate")
         calendarView.registerCellViewXib(file: "CalendarCell") // Registering your cell is manditory
         calendarView.cellInset = CGPoint(x: 0, y: 0)
 
+//        myLabel.text = "Calendar"
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }
-
 
 extension CalendarViewController: JTAppleCalendarViewDataSource, JTAppleCalendarViewDelegate {
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
+        
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy MM dd"
         
@@ -55,7 +60,6 @@ extension CalendarViewController: JTAppleCalendarViewDataSource, JTAppleCalendar
     }
 }
 
-
 extension UIColor {
     convenience init(colorWithHexValue value: Int, alpha:CGFloat = 1.0){
         self.init(
@@ -66,3 +70,6 @@ extension UIColor {
         )
     }
 }
+
+
+

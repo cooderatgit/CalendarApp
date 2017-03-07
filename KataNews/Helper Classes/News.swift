@@ -1,3 +1,11 @@
+//
+//  News.swift
+//  Kata
+//
+//  Created by Pathum Mudannayake on 1/27/17.
+//  Copyright © 2017 Pathum Mudannayake. All rights reserved.
+//
+//  A news is made up of a set of news items
 
 
 import Foundation

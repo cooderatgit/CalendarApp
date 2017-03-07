@@ -11,27 +11,24 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarCellView" customModule="KataNews" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="153" height="122"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FeatureView" customModule="KataNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="246"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-zJ-cCI">
-                    <rect key="frame" x="55" y="51" width="36" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtX-9i-xr5">
+                    <rect key="frame" x="128" y="59" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-            <constraints>
-                <constraint firstItem="cUD-zJ-cCI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1jP-9j-Ze4"/>
-                <constraint firstItem="cUD-zJ-cCI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2tm-vK-I3O"/>
-            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="dayLabel" destination="cUD-zJ-cCI" id="1C8-gc-w6c"/>
+                <outlet property="featureLabel" destination="UtX-9i-xr5" id="QlK-Go-fH8"/>
             </connections>
-            <point key="canvasLocation" x="47.5" y="145"/>
+            <point key="canvasLocation" x="-8" y="283"/>
         </view>
     </objects>
 </document>
